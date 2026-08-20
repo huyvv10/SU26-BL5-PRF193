@@ -1,0 +1,5 @@
+5 9 8 
+7 5 6 
+9 2 0 
+4 5 1 
+Noi dung duoc chen vao cuoi file output.txt
