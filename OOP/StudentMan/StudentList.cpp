@@ -1,20 +1,16 @@
+#include <iostream>
 #include "StudentList.h"
 #include "iomanip"
+using namespace std;
 
 StudentList::StudentList() {
 	size=0;
 }
-StudentList::~StudentList(){
-//	for (int i=0; i<size; i++){
-//		Student *d;
-//		*d=stdList[i];
-//		delete d;
-//	}
-}
+StudentList::~StudentList(){}
 
 void StudentList::addNewStudent(Student newStudent) {
 	if (size==MAX) {
-		std::cout<<"The list is full."<<std::endl;
+		cout<<"The list is full."<<endl;
 		return;
 	}
 	stdList[size]=newStudent;

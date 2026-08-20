@@ -10,7 +10,7 @@ rem ---- Config (override-able before calling this script) ----
 if not defined OUT_DIR    set "OUT_DIR=output"
 if not defined OUT_BIN    set "OUT_BIN=Q6.exe"
 if not defined OBJ_DIR    set "OBJ_DIR=%OUT_DIR%\obj"
-if not defined SRC_FILES  set "SRC_FILES=Student.cpp Main.cpp"
+if not defined SRC_FILES  set "SRC_FILES=Student.cpp main.cpp StudentList.cpp"
 
 rem Optional stdin redirection
 rem set "INPUT_FILE=TestCases\tc1.txt"
